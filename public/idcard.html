@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Download</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Your ID Card</h2>
+        <div id="idCard">
+            <img src="images/id_card_template.png" alt="ID Card Template" class="id-card-template">
+            <p>Name: <span id="userName"></span></p>
+            <p>ID: <span id="userId"></span></p>
+            <img id="qrCode" alt="QR Code">
+        </div>
+        <button id="downloadPdf">Download ID Card as PDF</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
